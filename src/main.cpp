@@ -74,7 +74,10 @@ void _draw()
       cycles++;
 
       if (curr_delay >= MAX_DELAY)
+      {
         final_dice = curr_dice;
+        break;
+      }
 
       curr_dice = random(0, 6);
     }
