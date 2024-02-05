@@ -5,7 +5,7 @@
 #define UP_BTN 0
 #define DOWN_BTN 14
 
-// 最大延迟时时间。值越大，摇动时间越长
+// 最大延迟时时间。值越大，滚动时间越长
 #define MAX_DELAY 800
 
 TFT_eSPI tft = TFT_eSPI();
